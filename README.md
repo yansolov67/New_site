@@ -33,7 +33,7 @@ Violet-Studio/
 ├── style.css        # Стили и адаптивный дизайн
 └── script.js        # Интерактивность сайта
 
-'''mermaind
+    '''mermaind
 
     flowchart TD
     ROOT["Violet Studio"]
@@ -68,6 +68,7 @@ Violet-Studio/
     style ROOT fill:#4b246b,color:#fff
     style CSS fill:#e879f9,color:#222
     style JS fill:#a3e635,color:#222
+    '''
 5. Технический стек
 Технология	Назначение
 HTML5	Структура страниц
