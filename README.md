@@ -33,6 +33,7 @@ Violet-Studio/
 ├── style.css        # Стили и адаптивный дизайн
 └── script.js        # Интерактивность сайта
 
+'''mermaind
     flowchart TD
     ROOT["Violet Studio"]
 
