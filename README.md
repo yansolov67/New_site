@@ -32,7 +32,7 @@ Violet-Studio/
 ├── contacts.html    # Контакты
 ├── style.css        # Стили и адаптивный дизайн
 └── script.js        # Интерактивность сайта
-``````mermaid
+```mermaid
 flowchart TD
     ROOT["Violet Studio"]
 
