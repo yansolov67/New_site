@@ -32,20 +32,18 @@ Violet-Studio/
 ├── contacts.html    # Контакты
 ├── style.css        # Стили и адаптивный дизайн
 └── script.js        # Интерактивность сайта
-
-    '''mermaind
-
-    flowchart TD
+``````mermaid
+flowchart TD
     ROOT["Violet Studio"]
 
-    ROOT --> INDEX["index.html<br/>Главная"]
-    ROOT --> ABOUT["about.html<br/>О студии"]
-    ROOT --> SERVICES["services.html<br/>Услуги"]
-    ROOT --> PORTFOLIO["portfolio.html<br/>Портфолио"]
-    ROOT --> CONTACTS["contacts.html<br/>Контакты"]
+    ROOT --> INDEX["index.html — Главная"]
+    ROOT --> ABOUT["about.html — О студии"]
+    ROOT --> SERVICES["services.html — Услуги"]
+    ROOT --> PORTFOLIO["portfolio.html — Портфолио"]
+    ROOT --> CONTACTS["contacts.html — Контакты"]
 
-    ROOT --> CSS["style.css<br/>Оформление"]
-    ROOT --> JS["script.js<br/>Интерактивность"]
+    ROOT --> CSS["style.css — Оформление"]
+    ROOT --> JS["script.js — Интерактивность"]
 
     CSS -.-> INDEX
     CSS -.-> ABOUT
@@ -68,7 +66,7 @@ Violet-Studio/
     style ROOT fill:#4b246b,color:#fff
     style CSS fill:#e879f9,color:#222
     style JS fill:#a3e635,color:#222
-    '''
+```
 5. Технический стек
 Технология	Назначение
 HTML5	Структура страниц
