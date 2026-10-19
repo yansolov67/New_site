@@ -33,7 +33,7 @@ Violet-Studio/
 ├── style.css        # Стили и адаптивный дизайн
 └── script.js        # Интерактивность сайта
 
-flowchart TD
+    flowchart TD
     ROOT["Violet Studio"]
 
     ROOT --> INDEX["index.html<br/>Главная"]
