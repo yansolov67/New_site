@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100e1b">
+  <meta name="description" content="Портфолио Violet Studio: концепции брендинга, веб-дизайна и цифровых продуктов.">
+  <title>Портфолио — Violet Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <nav class="nav container" aria-label="Главная навигация">
+    <a class="logo" href="index.html"><span class="logo-mark">✳</span> VIOLET STUDIO</a>
+    <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav">☰</button>
+    <div class="nav-links" id="main-nav">
+      <a href="index.html">Главная</a>
+      <a href="about.html">О компании</a>
+      <a href="services.html">Услуги</a>
+      <a class="active" aria-current="page" href="portfolio.html">Портфолио</a>
+      <a href="contacts.html">Контакты</a>
+    </div>
+    <a class="btn btn-small nav-cta" href="contacts.html">Обсудить проект ↗</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner">
+    <div class="container">
+      <span class="eyebrow">Избранные работы</span>
+      <h1>Каждый проект — <span class="gradient-text">новая история.</span></h1>
+      <p>Примеры направлений, в которых мы работаем. Демонстрационные проекты можно заменить реальными кейсами, описаниями и результатами.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filters reveal" role="group" aria-label="Фильтр проектов">
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">Все проекты</button>
+        <button class="filter-btn" data-filter="branding" aria-pressed="false">Брендинг</button>
+        <button class="filter-btn" data-filter="web" aria-pressed="false">Веб-дизайн</button>
+        <button class="filter-btn" data-filter="digital" aria-pressed="false">Digital</button>
+      </div>
+
+      <div class="project-grid" id="project-list">
+        <article class="project reveal" data-category="branding">
+          <a class="project-image-wrap" href="contacts.html" aria-label="Обсудить проект брендинга">
+            <img class="project-image" src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Графическая система и фирменный стиль" loading="lazy">
+          </a>
+          <div class="project-meta"><div><h3>MONO Brand</h3><p>Айдентика для современного бренда</p></div><span class="tag">Брендинг</span></div>
+        </article>
+
+        <article class="project reveal" data-category="web">
+          <a class="project-image-wrap" href="contacts.html" aria-label="Обсудить проект веб-дизайна">
+            <img class="project-image" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Дизайн цифровой панели и аналитического интерфейса" loading="lazy">
+          </a>
+          <div class="project-meta"><div><h3>FLOW Digital</h3><p>Интерфейс цифрового продукта</p></div><span class="tag">Веб-дизайн</span></div>
+        </article>
+
+        <article class="project reveal" data-category="branding">
+          <a class="project-image-wrap" href="contacts.html" aria-label="Обсудить проект фирменной айдентики">
+            <img class="project-image" src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Рабочие материалы и графическая презентация бренда" loading="lazy">
+          </a>
+          <div class="project-meta"><div><h3>FORM Studio</h3><p>Визуальная система бренда</p></div><span class="tag">Брендинг</span></div>
+        </article>
+
+        <article class="project reveal" data-category="digital">
+          <a class="project-image-wrap" href="contacts.html" aria-label="Обсудить цифровой продукт">
+            <img class="project-image" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Визуализация аналитики и цифровых данных" loading="lazy">
+          </a>
+          <div class="project-meta"><div><h3>PULSE Analytics</h3><p>Концепция аналитической платформы</p></div><span class="tag">Digital</span></div>
+        </article>
+
+        <article class="project reveal" data-category="web">
+          <a class="project-image-wrap" href="contacts.html" aria-label="Обсудить дизайн сайта">
+            <img class="project-image" src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Рабочий экран с макетом веб-сайта" loading="lazy">
+          </a>
+          <div class="project-meta"><div><h3>NEON Web</h3><p>Концепция промосайта</p></div><span class="tag">Веб-дизайн</span></div>
+        </article>
+
+        <article class="project reveal" data-category="digital">
+          <a class="project-image-wrap" href="contacts.html" aria-label="Обсудить дизайн цифрового сервиса">
+            <img class="project-image" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Команда разрабатывает цифровой продукт" loading="lazy">
+          </a>
+          <div class="project-meta"><div><h3>NOVA Platform</h3><p>Концепция цифрового сервиса</p></div><span class="tag">Digital</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta reveal">
+        <span class="eyebrow">Теперь ваша очередь</span>
+        <h2>Давайте создадим проект, который <span style="color:#d7ff9b">будет выделяться.</span></h2>
+        <p>Поделитесь идеей — обсудим концепцию и возможные решения.</p>
+        <a class="btn" href="contacts.html">Обсудить мой проект ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"><div class="container footer-inner">
+  <div><a class="logo" href="index.html"><span class="logo-mark">✳</span> VIOLET STUDIO</a><p>© <span data-year></span> Violet Studio. Концепция сайта.</p></div>
+  <div class="footer-links"><a href="about.html">О компании</a><a href="services.html">Услуги</a><a href="portfolio.html">Портфолио</a><a href="contacts.html">Контакты</a></div>
+</div></footer>
+<button class="back-top" aria-label="Наверх">↑</button>
+</body>
+</html>
