@@ -34,6 +34,7 @@ Violet-Studio/
 └── script.js        # Интерактивность сайта
 
 '''mermaind
+
     flowchart TD
     ROOT["Violet Studio"]
 
